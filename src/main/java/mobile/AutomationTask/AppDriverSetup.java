@@ -24,9 +24,9 @@ public class AppDriverSetup {
 		DesCap.setCapability(MobileCapabilityType.APP, APKPath+"android-sample-app.apk");
 		DesCap.setCapability(MobileCapabilityType.PLATFORM_NAME , "Android");
 		DesCap.setCapability("platformVersion" , "8");
-		//DesCap.setCapability("automationName", "UiAutomator2");
+		DesCap.setCapability("automationName", "UiAutomator2");
 		AD = new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"), DesCap);
-		AD.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		AD.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 		
 		
 	}

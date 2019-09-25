@@ -98,12 +98,6 @@ public class AppLogic {
 		OperationResult = ResultsPan.getText();
 		System.out.println("Actual Result: "+OperationResult);
 		
-		/*
-		 * double a = Double.parseDouble(int1); System.out.println(a); double b =
-		 * Double.parseDouble(int2); System.out.println(b); DivNums =
-		 * AppHelper.round((a/b),2);
-		 */
-		
 		double DivNums = Double.parseDouble(int1) /  Double.parseDouble(int2);
 		ExpectedResult = APH.FormatResult(int1, int2, "/",DivNums);
 		System.out.println("Expected Result: "+ExpectedResult);
