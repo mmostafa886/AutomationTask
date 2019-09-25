@@ -10,7 +10,7 @@
   - Java JDK (needs to be nstalled & the JAVA_HOME environment variabale must be defined)
   - Android SDK (Needs to be installed & the ANDROID_HOME environment variable must be defined)
   - Development IDE (In our case, we used Eclipse but we can use anyother one like IntelliJ)
-  - Project Mangement tools (Maven, to manage the project dependancies & enable running the project on whatever the user OS)
+  - Project Mangement tools (Maven, to manage the project dependancies & enable getting the project running whatever the user OS environment)
 
 ## 3. Running Tests
   - Open the IDE (Eclipse)
