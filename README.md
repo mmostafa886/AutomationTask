@@ -11,6 +11,7 @@
   - Android SDK (Needs to be installed & the ANDROID_HOME environment variable must be defined)
   - Development IDE (In our case, we used Eclipse but we can use another one like IntelliJ)
   - Project Management tools "Maven" (Needs to be installed to manage the project dependencies & enable getting the project running on whatever the user OS environment)
+  - An android real Mobile or simulator to run the test cases against (you need to verify the device name & android version in the "AppDriverSetup" class)
 
 ## 3. Running Tests
   - Open the IDE (Eclipse)
