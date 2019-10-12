@@ -20,11 +20,13 @@ public class AppDriverSetup {
 	public static void Setup() throws MalformedURLException
 	{
 		DesiredCapabilities DesCap = new DesiredCapabilities();
-		DesCap.setCapability("deviceName", "192.168.160.103:5555");
+		DesCap.setCapability("deviceName", "192.168.160.104:5555");
 		DesCap.setCapability(MobileCapabilityType.APP, APKPath+"android-sample-app.apk");
 		DesCap.setCapability(MobileCapabilityType.PLATFORM_NAME , "Android");
 		DesCap.setCapability("platformVersion" , "8");
 		DesCap.setCapability("automationName", "UiAutomator2");
+		DesCap.setCapability("noSign", "true");
+		//DesCap.setCapability("automationName", "espresso");
 		AD = new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"), DesCap);
 		AD.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 		

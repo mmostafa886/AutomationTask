@@ -15,6 +15,7 @@ public class AppTest extends AppDriverSetup {
 	AppLogic ApL;
 	AppHelper ApH = new AppHelper();
 
+	//Test setup
 	@BeforeTest
 	public void DSetup() throws MalformedURLException {
 
@@ -23,6 +24,7 @@ public class AppTest extends AppDriverSetup {
 
 	}
 
+	//Test teardown
 	@AfterTest
 	public void close() {
 		AppDriverSetup.termination();
