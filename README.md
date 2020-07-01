@@ -1,9 +1,9 @@
 # AutomationTask
 
 ## 1. Introduction
-   - This repository is supposed to contain the developed script for the task (Developing 6 test cases to test the provided android apk)
-   - The project has been developed using (Java, Selenium, Appium, Maven & TestNG) 
-   - All the needed resources have been attached to the project (The APK to be tested & the test data file [Data.csv])
+   - This repository is supposed to contain the developed script for the task (Developing 6 test cases to test the provided android apk).
+   - The project has been developed using (Java, Selenium, Appium, Maven & TestNG) .
+   - All the needed resources have been attached to the project (The APK to be tested & the test data file [Data.csv]).
 
 ## 2. Environment Needs
   - OS that accepts installing Java (although we used Windows in our case but so far, all the famous OSs (Windows, Mac, Linux) support Java)
